@@ -31,6 +31,7 @@
         </div>
       </header>
     </section>
+
     <main>
       <section id="about">
         <h2>About</h2>
@@ -50,6 +51,7 @@
           </figure>
         </div>
       </section>
+
       <section id="discord">
         <h2>Discord</h2>
         <div class="section__description">
@@ -70,25 +72,32 @@
           </div>
         </div>
       </section>
+
       <section id="Contact">
         <h2>Contact</h2>
         <form action="">
           <label>Email</label>
-          <input type="text" placeholder="jane@exmaple.com" />
+          <input type="email" placeholder="jane@exmaple.com" />
           <label>Message</label>
-          <textarea type="text" placeholder="jane@exmaple.com"></textarea>
-          <button>Submit</button>
+          <textarea
+            type="text"
+            placeholder="Cool website, let's get connected!"
+          ></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
+
     <footer>
-      <img src="./Assets/FES.svg" alt="" />
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#discord">Discord</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="">Courses</a></li>
-      </ul>
+      <img class="footer__logo" src="./Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <ul>
+          <li><a class="footer__link" href="#about">About</a></li>
+          <li><a class="footer__link" href="#discord">Discord</a></li>
+          <li><a class="footer__link" href="#contact">Contact</a></li>
+          <li><a class="footer__link" href="">Courses</a></li>
+        </ul>
+      </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
   </body>

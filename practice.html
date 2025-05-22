@@ -31,38 +31,42 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
-              illo.
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
-              illo.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+                illo.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+                illo.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./Assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./Assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <figure class="about__img--wrapper">
-            <img src="./Assets/discord.png" alt="" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-              impedit?
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-              impedit?
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img src="./Assets/discord.png" alt="" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+                impedit?
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+                impedit?
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -71,21 +75,27 @@
         <h2>Contact</h2>
         <form action="">
           <label>Email</label>
-          <input type="text" placeholder="janedoe@gmail.com" />
+          <input type="email" placeholder="janedoe@gmail.com" />
           <label>Message</label>
-          <textarea type="text" placeholder="janedoe@gmail.com"></textarea>
-          <button>Submit</button>
+          <textarea
+            type="text"
+            placeholder="Cool website, let's get connected!"
+          ></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
+
     <footer>
-      <img src="./Assets/FES.svg" alt="" />
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#discord">Discord</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="">Courses</a></li>
-      </ul>
+      <img class="footer__logo" src="./Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <ul>
+          <li><a class="footer__link" href="#about">About</a></li>
+          <li><a class="footer__link" href="#discord">Discord</a></li>
+          <li><a class="footer__link" href="#contact">Contact</a></li>
+          <li><a class="footer__link" href="">Courses</a></li>
+        </ul>
+      </div>
       <p>Copyright FES</p>
     </footer>
   </body>
