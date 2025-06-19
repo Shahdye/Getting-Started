@@ -6,48 +6,86 @@
   font-family: "Roboto", serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   width: 100vw;
 }
 
-nav{
+nav {
   width: auto;
-  height: auto;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   background-color: aqua;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   width: 500px;
 }
 
-.row{
+.row {
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: violet;
 }
 
-h2{
-  font-size: 48px ;
+header {
+  width: 100vw;
 }
 
-button{
-  background-color: blue;
-  color: white;
+.header__page {
+  line-height: 1.5;
+  padding-right: 24px;
+}
+
+h2 {
+  font-size: 56px;
+  padding-bottom: 8px;
+}
+
+p {
+  font-size: 28px;
+  padding-bottom: 8px;
+}
+
+button {
+  padding: 8px;
+  width: 150px;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  font-size: medium;
   outline: none;
+  border-radius: 3px;
 }
 
-
-.section__img{
-  width: 300px;
-
+.section__img {
+  width: 500px;
+  padding-left: 48px;
+  padding-top: 24px;
 }
+
+.section__description {
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color{
+  color: aqua;
+}
+
+#about {
+  height: 100vh;
+}
+
