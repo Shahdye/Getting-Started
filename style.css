@@ -6,3 +6,48 @@
   font-family: "Roboto", serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100vw;
+}
+
+nav{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 500px;
+}
+
+.row{
+  display: flex;
+  background-color: violet;
+}
+
+h2{
+  font-size: 48px ;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  outline: none;
+}
+
+
+.section__img{
+  width: 300px;
+
+}
