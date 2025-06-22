@@ -43,12 +43,11 @@ ul {
 
 .header__page {
   line-height: 1.5;
-  padding-right: 24px;
+  padding-right: 48px;
 }
 
 h2 {
   font-size: 56px;
-  padding-bottom: 8px;
 }
 
 p {
@@ -66,14 +65,21 @@ button {
   border-radius: 3px;
 }
 
-.section__img {
-  width: 500px;
-  padding-left: 48px;
-  padding-top: 24px;
+.section__img{
+  border-radius: 20px;
+}
+
+#discord .section__img{
+  padding-right: 48px;
 }
 
 .section__description {
-  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +99,8 @@ button {
 }
 
 #about h2,
-#discord h2{
+#discord h2,
+#contact h2{
   display: flex;
   justify-content: center;
   padding: 36px 0;
@@ -105,9 +112,9 @@ button {
 
 .section__description--para {
   font-size: 24px;
-  padding: 0px 16px;
 }
 
-.section__description--img {
-  width: 100%;
+.section__description--wrapper{
+  padding-top: 24px;
 }
+
