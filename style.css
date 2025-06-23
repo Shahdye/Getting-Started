@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  width: 100vw;
 }
 
 nav {
@@ -27,13 +26,20 @@ ul {
   justify-content: space-between;
 }
 
+li{
+  list-style-type: none;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   width: 400px;
   padding-left: 12px;
 }
 
 .row {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,11 +71,11 @@ button {
   border-radius: 3px;
 }
 
-.section__img{
+.section__img {
   border-radius: 20px;
 }
 
-#discord .section__img{
+#discord .section__img {
   padding-right: 48px;
 }
 
@@ -91,7 +97,7 @@ button {
 
 #about,
 #discord {
-  height: 100vh;
+  padding-bottom: 48px;
 }
 
 #about {
@@ -100,13 +106,13 @@ button {
 
 #about h2,
 #discord h2,
-#contact h2{
+#contact h2 {
   display: flex;
   justify-content: center;
   padding: 36px 0;
 }
 
-#discord{
+#discord {
   background-color: aqua;
 }
 
@@ -114,7 +120,55 @@ button {
   font-size: 24px;
 }
 
-.section__description--wrapper{
+.section__description--wrapper {
   padding-top: 24px;
 }
 
+#contact{
+  background-color: lavender;
+
+}
+
+.contact__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea,
+#contact button {
+  width: 700px;
+}
+
+.email,
+.text {
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+.text {
+  height: 160px;
+}
+
+#contact button{
+  margin-bottom: 48px;
+}
+
+footer{
+  background-color: aqua;
+}
+
+.footer__row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .logo,
+.copyright{
+  padding: 32px;
+}
+
+#about .section__description--para{
+  padding: 0px 36px;
+}
