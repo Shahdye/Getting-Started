@@ -25,9 +25,16 @@ ul {
 
 li {
   list-style-type: none;
+  color: black;
   padding: 0px 16px;
   display: flex;
   align-items: center;
+}
+
+a{
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .logo {
@@ -171,9 +178,14 @@ footer {
 
 footer .logo,
 .copyright {
-  padding: 32px;
+  padding: 36px 0px;
 }
 
 #about .section__description--para {
   padding: 8px 48px;
+}
+
+.copyright{
+  font-weight: 400;
+  padding-left: 92px;
 }
